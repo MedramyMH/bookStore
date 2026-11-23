@@ -48,7 +48,7 @@ export default async function render({ root, params, query }) {
   root.innerHTML = `
   <div class="auth-page">
     <div class="auth-card card">
-      <a href="#/" class="brand center">${icon("book")} <span class="brand-name">${esc(tr(CONFIG.SITE_NAME))}</span></a>
+      <a href="#/" class="brand center"><img class="brand-logo" src="assets/img/logo-icon.png" alt="" width="56" height="56" decoding="async" /> <span class="brand-name">${esc(tr(CONFIG.SITE_NAME))}</span></a>
       <h1>${esc(titles[mode])}</h1>
       ${mode === "reset" && !state.user ? `<p class="notice">${esc(t("resetLinkInvalid"))}</p>` : ""}
       ${google}
