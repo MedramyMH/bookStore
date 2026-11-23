@@ -6,6 +6,8 @@ import { t, tr, getLang, setLang, onLangChange, applyLangToDocument, LANGS, LANG
 import { $, esc, icon, toast } from "./ui.js";
 import { signOut, syncLocalProgress } from "./api.js";
 
+const LOGO_SRC = "./assets/maktaba-logo-icon.png";
+
 // ---------------------------------------------------------------- theme
 const THEME_KEY = "site-theme";
 function applyTheme(theme) {
@@ -92,6 +94,10 @@ function activeClass(prefix) {
   return (prefix === "/" ? path === "/" || path === "" : path.startsWith(prefix)) ? "active" : "";
 }
 
+function brandLogo() {
+  return `<span class="brand-mark"><img src="${esc(LOGO_SRC)}" alt="" aria-hidden="true" class="brand-logo" loading="eager" decoding="async" /></span>`;
+}
+
 function renderHeader() {
   const h = $("#site-header");
   const user = state.user;
@@ -100,7 +106,7 @@ function renderHeader() {
   h.innerHTML = `
   <div class="container header-inner">
     <a href="#/" class="brand" aria-label="${esc(tr(CONFIG.SITE_NAME))}">
-      <span class="brand-mark">${icon("book")}</span>
+      ${brandLogo()}
       <span class="brand-name">${esc(tr(CONFIG.SITE_NAME))}</span>
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
@@ -173,7 +179,7 @@ function renderFooter() {
   $("#site-footer").innerHTML = `
   <div class="container footer-inner">
     <div class="footer-brand">
-      <a href="#/" class="brand">${icon("book")}<span class="brand-name">${esc(tr(CONFIG.SITE_NAME))}</span></a>
+      <a href="#/" class="brand">${brandLogo()}<span class="brand-name">${esc(tr(CONFIG.SITE_NAME))}</span></a>
       <p class="muted">${esc(t("footerTagline"))}</p>
     </div>
     <div class="footer-links">
