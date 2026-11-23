@@ -1,0 +1,9 @@
+{
+  "name": "Maktaba — Library",
+  "short_name": "Maktaba",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e9",
+  "theme_color": "#1f4e5f",
+  "icons": [{ "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
