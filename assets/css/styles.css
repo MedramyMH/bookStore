@@ -11,11 +11,11 @@
   --ink-soft: #3b4754;
   --muted: #6e7277;
   --line: #e4dccd;
-  --primary: #1f4e5f;
+  --primary: #1d4a50;
   --primary-ink: #ffffff;
-  --primary-soft: #dfeaec;
-  --accent: #c0703a;
-  --accent-soft: #f6e3d3;
+  --primary-soft: #dde9e8;
+  --accent: #b07832;
+  --accent-soft: #f5e6cf;
   --gold: #e0a526;
   --success: #2f7d4f;
   --success-soft: #dcefe2;
@@ -43,10 +43,10 @@
   --ink-soft: #c9c3b9;
   --muted: #98a1ab;
   --line: #2b3642;
-  --primary: #6fb3c3;
+  --primary: #74b5b4;
   --primary-ink: #0d1a20;
   --primary-soft: #1d3540;
-  --accent: #e39a62;
+  --accent: #d8a457;
   --accent-soft: #3a2a1f;
   --success-soft: #183a27;
   --danger-soft: #3d1f1d;
@@ -207,6 +207,11 @@ select.input { cursor: pointer; }
 .header-inner { height: var(--header-h); display: flex; align-items: center; gap: 1.5rem; }
 .brand { display: inline-flex; align-items: center; gap: .55rem; color: var(--ink); text-decoration: none !important; font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; }
 html[lang="ar"] .brand { font-family: "Amiri", serif; font-size: 1.5rem; }
+.brand-logo { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.auth-card .brand-logo { width: 56px; height: 56px; }
+.brand-name { color: var(--primary); }
+[data-theme="dark"] .brand-logo { background: #f8f5ec; border-radius: 10px; padding: 3px; }
+.setup-logo { width: min(320px, 80%); margin: 0 auto 1.5rem; }
 .brand-mark { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--primary); color: var(--primary-ink); }
 .brand-mark .icon { width: 20px; height: 20px; }
 .main-nav { display: flex; gap: .25rem; }
