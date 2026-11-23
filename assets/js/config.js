@@ -14,7 +14,7 @@ export const CONFIG = {
 
   // Branding
   SITE_NAME: { en: "Maktaba", fr: "Maktaba", ar: "مكتبة" },
-  AUTHOR_NAME: { en: "Your Name", fr: "Votre Nom", ar: "اسمك" },
+  AUTHOR_NAME: { en: "Nour Ennour", fr: "Nour Ennour", ar: "نور النور" },
   AUTHOR_BIO: {
     en: "Writer and thinker. Here you will find all my books — read them online, download them, or support my work by buying them.",
     fr: "Écrivain et penseur. Retrouvez ici tous mes livres — lisez-les en ligne, téléchargez-les ou soutenez mon travail en les achetant.",
