@@ -3,8 +3,9 @@
 // =====================================================================
 export const CONFIG = {
   // Supabase → Project Settings → API
-  SUPABASE_URL: "https://YOUR-PROJECT-REF.supabase.co",
-  SUPABASE_ANON_KEY: "YOUR-ANON-PUBLIC-KEY",
+  SUPABASE_URL: "https://yoempvdedunvxivdljah.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_DFYWmWcslULLbf6RPxSusA__4KPOGv",
+
 
   // PayPal Developer Dashboard → Apps & Credentials → your app → Client ID
   // (use the Sandbox client id while testing, the Live one in production)
