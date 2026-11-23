@@ -6,7 +6,7 @@ import { t, tr, getLang, setLang, onLangChange, applyLangToDocument, LANGS, LANG
 import { $, esc, icon, toast } from "./ui.js";
 import { signOut, syncLocalProgress } from "./api.js";
 
-const LOGO_SRC = "./assets/maktaba-logo-icon.png";
+const LOGO_SRC = "./assets/maktaba-logo-icon.jpg";
 
 // ---------------------------------------------------------------- theme
 const THEME_KEY = "site-theme";
