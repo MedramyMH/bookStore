@@ -4,7 +4,8 @@
 export const CONFIG = {
   // Supabase → Project Settings → API
   SUPABASE_URL: "https://yoempvdedunvxivdljah.supabase.co",
-  SUPABASE_ANON_KEY: "sb_publishable_DFYWmWcslULLbf6RPxSusA__4KPOGv",
+  SUPABASE_ANON_KEY: "sb_publishable_DFYWmWcslULLbf6RPxSusA__4KPOGvE",
+
 
 
   // PayPal Developer Dashboard → Apps & Credentials → your app → Client ID
