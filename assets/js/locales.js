@@ -16,7 +16,7 @@ export const MESSAGES = {
     free: "Free", paid: "Paid", owned: "Owned", draft: "Draft", by: "by",
 
     // home
-    heroEyebrow: "The author's library", heroTitle: "Every book, one place.",
+    heroEyebrow: "The author's library", heroTitle: "Your journey to worlds of light.",
     browseBooks: "Browse books", readFree: "Read free books",
     featReadOnline: "Read online", featDownload: "Download as PDF", featListen: "Listen with auto-reader", featResume: "Resume where you stopped",
     continueReading: "Continue reading", featuredBooks: "Featured", newReleases: "New releases", freeBooks: "Free books",
@@ -152,7 +152,7 @@ export const MESSAGES = {
     rightsReserved: "Tous droits réservés.", contact: "Contact", you: "vous", reader: "Lecteur",
     free: "Gratuit", paid: "Payant", owned: "Acheté", draft: "Brouillon", by: "par",
 
-    heroEyebrow: "La bibliothèque de l'auteur", heroTitle: "Tous mes livres, en un seul lieu.",
+    heroEyebrow: "La bibliothèque de l'auteur", heroTitle: "Votre voyage vers des mondes de lumière.",
     browseBooks: "Parcourir les livres", readFree: "Lire les livres gratuits",
     featReadOnline: "Lecture en ligne", featDownload: "Téléchargement PDF", featListen: "Lecture audio automatique", featResume: "Reprenez où vous vous êtes arrêté",
     continueReading: "Reprendre la lecture", featuredBooks: "À la une", newReleases: "Nouveautés", freeBooks: "Livres gratuits",
@@ -278,7 +278,7 @@ export const MESSAGES = {
     rightsReserved: "جميع الحقوق محفوظة.", contact: "تواصل معي", you: "أنت", reader: "قارئ",
     free: "مجاني", paid: "مدفوع", owned: "مُشترى", draft: "مسودة", by: "تأليف",
 
-    heroEyebrow: "مكتبة الكاتب", heroTitle: "كل كتبي في مكان واحد.",
+    heroEyebrow: "مكتبة الكاتب", heroTitle: "رحلتك إلى عوالم من النور.",
     browseBooks: "تصفّح الكتب", readFree: "اقرأ الكتب المجانية",
     featReadOnline: "قراءة مباشرة", featDownload: "تحميل بصيغة PDF", featListen: "قارئ صوتي تلقائي", featResume: "أكمل من حيث توقفت",
     continueReading: "أكمل القراءة", featuredBooks: "كتب مميزة", newReleases: "أحدث الإصدارات", freeBooks: "كتب مجانية",
